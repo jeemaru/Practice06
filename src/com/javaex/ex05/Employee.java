@@ -2,8 +2,8 @@ package com.javaex.ex05;
 
 public class Employee {
 
-    protected String name;
-    protected int salary;
+    private String name;
+    private int salary;
 
     public Employee() {
     }

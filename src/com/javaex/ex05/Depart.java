@@ -22,8 +22,8 @@ public class Depart extends Employee{
 		this.clas = clas;
 	}
 	
-	 public void showInformation() {
-	        System.out.println("이름: " + name + " 연봉: " + salary + " 부서: "+clas);
+	public void showInformation() {
+	        System.out.println("이름: " + super.getName() + " 연봉: " + super.getSalary() + " 부서: "+clas);
 	    }
 	
 	
